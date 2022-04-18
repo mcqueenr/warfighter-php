@@ -1,6 +1,6 @@
 <?php
 
-require_once('db-connect.php');
+require_once('../db-connect.php');
 
 $user_story_sql = "SELECT * FROM user_story";
 $result = mysqli_query($conn, $user_story_sql);
