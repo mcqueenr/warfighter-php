@@ -1,6 +1,6 @@
 <?php
 
-require_once('../db-connect.php');
+require_once('../db-connect-2.php');
 
 $user_story_sql = "SELECT * FROM user_story";
 $result = mysqli_query($conn, $user_story_sql);
@@ -407,7 +407,7 @@ require_once('includes/header.php');
 			</li>
 			<li class="portfolio-box data products" style="height:240px;">
 				<a class="fancybox-effects-d" href="#divForm1" title="">
-					<img src="images/gallery/ERS.jpg?ver=1" alt="" style="max-height: 204px;"/>
+					<img src="images/gallery/ers.jpg?ver=1" alt="" style="max-height: 204px;"/>
 					<div class="mask"></div>
 					<h4 class="cls_text_search">ERS</h4>
 					<button type="button" class="send_message cls_text_search" style="margin: 0px;pointer-events: none;cursor: default;background: #dfdfdf;color: #363636;border-left: 1px solid;border-right: 1px solid;text-align: center;">
@@ -435,7 +435,7 @@ require_once('includes/header.php');
 			</li>
 			<li class="portfolio-box products support" style="height:240px;">
 				<a class="fancybox-effects-d" href="#divForm2" title="">
-					<img src="images/gallery/HPA.jpg?ver=1" alt="" style="max-height: 204px;"/>
+					<img src="images/gallery/hpa.jpg?ver=1" alt="" style="max-height: 204px;"/>
 					<div class="mask"></div>
 					<h4 class="cls_text_search">HPA</h4>
 					<button type="button" class="send_message cls_text_search" style="margin: 0px;pointer-events: none;cursor: default;background: #dfdfdf;color: #363636;border-left: 1px solid;border-right: 1px solid;text-align: center;">
@@ -460,7 +460,7 @@ require_once('includes/header.php');
 			</li>
 			<li class="portfolio-box data products" style="height:240px;">
 				<a class="fancybox-effects-d" href="#divForm3" title="">
-					<img src="images/gallery/BET.jpg?ver=1" alt="" style="max-height: 204px;"/>
+					<img src="images/gallery/bet.jpg?ver=1" alt="" style="max-height: 204px;"/>
 					<div class="mask"></div>
 					<h4 class="cls_text_search">BET</h4>
 					<button type="button" class="send_message cls_text_search" style="margin: 0px;pointer-events: none;cursor: default;background: #dfdfdf;color: #363636;border-left: 1px solid;border-right: 1px solid;text-align: center;">
@@ -505,7 +505,7 @@ require_once('includes/header.php');
 			</li>
 			<li class="portfolio-box data products" style="height:240px;">
 				<a class="fancybox-effects-d" href="#divForm4" title="">
-					<img src="images/gallery/UTP.png?ver=1" alt="" style="max-height: 204px;"/>
+					<img src="images/gallery/utp.png?ver=1" alt="" style="max-height: 204px;"/>
 					<div class="mask"></div>
 					<h4 calss="cls_text_search">UTP</h4>
 					<button type="button" class="send_message cls_text_search" style="margin: 0px;pointer-events: none;cursor: default;background: #dfdfdf;color: #363636;border-left: 1px solid;border-right: 1px solid;text-align: center;">
@@ -555,7 +555,7 @@ require_once('includes/header.php');
 			</li>
 			<li class="portfolio-box data services" style="height:240px;">
 				<a class="fancybox-effects-d" href="#divForm6" title="">
-					<img src="images/gallery/CMB.jpg?ver=1" alt="" style="max-height: 204px;"/>
+					<img src="images/gallery/cmb.jpg?ver=1" alt="" style="max-height: 204px;"/>
 					<div class="mask"></div>
 					<h4 class="cls_text_search">CMB</h4>
 					<button type="button" class="send_message cls_text_search" style="margin: 0px;pointer-events: none;cursor: default;background: #dfdfdf;color: #363636;border-left: 1px solid;border-right: 1px solid;text-align: center;">
@@ -579,7 +579,7 @@ require_once('includes/header.php');
 			</li>
 			<li class="portfolio-box imagery" style="height:240px;">
 				<a class="fancybox-effects-d" href="#divForm7" title="">
-					<img src="images/gallery/AIP.JPG?ver=1" alt="" style="max-height: 204px;"/>
+					<img src="images/gallery/aip.jpg?ver=1" alt="" style="max-height:204px;"/>
 					<div class="mask"></div>
 					<h4 class="cls_text_search">AIP</h4>
 					<button type="button" class="send_message cls_text_search" style="margin: 0px;pointer-events: none;cursor: default;background: #dfdfdf;color: #363636;border-left: 1px solid;border-right: 1px solid;text-align: center;">
@@ -598,7 +598,7 @@ require_once('includes/header.php');
 			</li>
 			<li class="portfolio-box products services" style="height:240px;">
 				<a class="fancybox-effects-d" href="#divForm8" title="">
-					<img src="images/gallery/DMR.jpg?ver=1" alt="" style="max-height: 204px;"/>
+					<img src="images/gallery/dmr.jpg?ver=1" alt="" style="max-height: 204px;"/>
 					<div class="mask"></div>
 					<h4 class="cls_text_search">GEOPDF</h4>
 					<button type="button" class="send_message cls_text_search" style="margin: 0px;pointer-events: none;cursor: default;background: #dfdfdf;color: #363636;border-left: 1px solid;border-right: 1px solid;text-align: center;">
@@ -643,7 +643,7 @@ require_once('includes/header.php');
 			</li>
 			<li class="portfolio-box products services" style="height:240px;">
 				<a class="fancybox-effects-d" href="#divForm11" title="">
-					<img src="images/gallery/3DPRM.JPG" alt="" style="max-height: 204px;"/>
+					<img src="images/gallery/3dprm.jpg" alt="" style="max-height: 204px;"/>
 					<div class="mask"></div>
 					<h4 class="cls_text_search">3DPRM</h4>
 					<button type="button" class="send_message cls_text_search" style="margin: 0px;pointer-events: none;cursor: default;background: #dfdfdf;color: #363636;border-left: 1px solid;border-right: 1px solid;text-align: center;">
@@ -698,7 +698,7 @@ require_once('includes/header.php');
 			</li>
 			<li class="portfolio-box data" style="height:240px;">
 				<a class="fancybox-effects-d" href="#divForm13" title="">
-					<img src="images/gallery/AWR2.JPG" alt="" style="max-height: 204px;"/>
+					<img src="images/gallery/awr2.jpg" alt="" style="max-height: 204px;"/>
 					<div class="mask"></div>
 					<h4 style="text-transform:none;" class="cls_text_search">AWR2</h4>
 					<button type="button" class="send_message cls_text_search" style="margin: 0px;pointer-events: none;cursor: default;background: #dfdfdf;color: #363636;border-left: 1px solid;border-right: 1px solid;text-align: center;">
@@ -747,7 +747,7 @@ require_once('includes/header.php');
 			</li>
 			<li class="portfolio-box data support" style="height:240px;">
 				<a class="fancybox-effects-d" href="#divForm13" title="">
-					<img src="images/gallery/MPIC.jpg" alt="" style="max-height: 204px;"/>
+					<img src="images/gallery/mpic.jpg" alt="" style="max-height: 204px;"/>
 					<div class="mask"></div>
 					<h4 style="text-transform:none;" class="cls_text_search">GST</h4>
 					<button type="button" class="send_message cls_text_search" style="margin: 0px;pointer-events: none;cursor: default;background: #dfdfdf;color: #363636;border-left: 1px solid;border-right: 1px solid;text-align: center;">
